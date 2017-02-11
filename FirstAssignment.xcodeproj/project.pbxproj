@@ -16,6 +16,12 @@
 		36A3FB371E4E69F2006928A6 /* FirstAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB361E4E69F2006928A6 /* FirstAssignmentTests.swift */; };
 		36A3FB421E4E69F3006928A6 /* FirstAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB411E4E69F3006928A6 /* FirstAssignmentUITests.swift */; };
 		36A3FB511E4E6A6E006928A6 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB501E4E6A6E006928A6 /* FaceView.swift */; };
+		36A3FB531E4E7402006928A6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB521E4E7402006928A6 /* SecondViewController.swift */; };
+		36A3FB551E4F18E7006928A6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB541E4F18E7006928A6 /* ThirdViewController.swift */; };
+		36A3FB571E4F18F7006928A6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB561E4F18F7006928A6 /* FourthViewController.swift */; };
+		36A3FB591E4F1904006928A6 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB581E4F1904006928A6 /* FifthViewController.swift */; };
+		36A3FB5B1E4F325B006928A6 /* ViewControllerSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3FB5A1E4F325B006928A6 /* ViewControllerSegues.swift */; };
+		36D1AFB61E4FA66500C2F086 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1AFB51E4FA66500C2F086 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		36A3FB411E4E69F3006928A6 /* FirstAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAssignmentUITests.swift; sourceTree = "<group>"; };
 		36A3FB431E4E69F3006928A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36A3FB501E4E6A6E006928A6 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		36A3FB521E4E7402006928A6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		36A3FB541E4F18E7006928A6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		36A3FB561E4F18F7006928A6 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		36A3FB581E4F1904006928A6 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		36A3FB5A1E4F325B006928A6 /* ViewControllerSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSegues.swift; sourceTree = "<group>"; };
+		36D1AFB51E4FA66500C2F086 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +115,15 @@
 			children = (
 				36A3FB221E4E69F2006928A6 /* Main.storyboard */,
 				36A3FB201E4E69F2006928A6 /* FaceViewController.swift */,
+				36A3FB541E4F18E7006928A6 /* ThirdViewController.swift */,
+				36A3FB561E4F18F7006928A6 /* FourthViewController.swift */,
+				36A3FB581E4F1904006928A6 /* FifthViewController.swift */,
+				36A3FB521E4E7402006928A6 /* SecondViewController.swift */,
 				36A3FB501E4E6A6E006928A6 /* FaceView.swift */,
+				36D1AFB51E4FA66500C2F086 /* FacialExpression.swift */,
 				36A3FB251E4E69F2006928A6 /* FirstAssignment.xcdatamodeld */,
 				36A3FB4F1E4E6A1C006928A6 /* Supporting Files */,
+				36A3FB5A1E4F325B006928A6 /* ViewControllerSegues.swift */,
 			);
 			path = FirstAssignment;
 			sourceTree = "<group>";
@@ -275,7 +293,13 @@
 			files = (
 				36A3FB271E4E69F2006928A6 /* FirstAssignment.xcdatamodeld in Sources */,
 				36A3FB211E4E69F2006928A6 /* FaceViewController.swift in Sources */,
+				36A3FB5B1E4F325B006928A6 /* ViewControllerSegues.swift in Sources */,
 				36A3FB1F1E4E69F2006928A6 /* AppDelegate.swift in Sources */,
+				36A3FB571E4F18F7006928A6 /* FourthViewController.swift in Sources */,
+				36A3FB591E4F1904006928A6 /* FifthViewController.swift in Sources */,
+				36A3FB531E4E7402006928A6 /* SecondViewController.swift in Sources */,
+				36D1AFB61E4FA66500C2F086 /* FacialExpression.swift in Sources */,
+				36A3FB551E4F18E7006928A6 /* ThirdViewController.swift in Sources */,
 				36A3FB511E4E6A6E006928A6 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +545,7 @@
 				36A3FB481E4E69F3006928A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A3FB491E4E69F3006928A6 /* Build configuration list for PBXNativeTarget "FirstAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +554,7 @@
 				36A3FB4B1E4E69F3006928A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A3FB4C1E4E69F3006928A6 /* Build configuration list for PBXNativeTarget "FirstAssignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +563,7 @@
 				36A3FB4E1E4E69F3006928A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
