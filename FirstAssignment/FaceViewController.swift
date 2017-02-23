@@ -23,9 +23,7 @@ class FaceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view, typically from a nib.
-        buttonLogin.layer.cornerRadius = 5
-        
+        // Do any additional setup after loading the view, typically from a nib.        
         let swipe = UISwipeGestureRecognizer(target: self, action: #selector(self.handleSwipe(sender:)))
         imageView.isUserInteractionEnabled = true
         imageView.addGestureRecognizer(swipe)

@@ -13,7 +13,13 @@ class FourthViewController: UIViewController {
     var name: String?
     let numberOfSmilesString = " number of smiles: "
     var fullString = ""
-    var counter = 0
+    
+    var counter = 0 { didSet { labelNamaAndNumber.text = fullString + String(counter) } }
+    
+    let boxSize = 50
+    var viewWidth = 0
+    var viewHeight = 0
+    var viewRect = CGRect()
     
     let emotionalFaces = [
         FacialExpression(eyes: .closed, eyeBrows: .furrowed, mouth: .frown),
@@ -29,20 +35,19 @@ class FourthViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         fullString = (name ?? "") + numberOfSmilesString
-        updateNameAndSmileysLabel()
+        counter = 0
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(sender:)))
         self.view.addGestureRecognizer(tap)
+        
+        viewWidth = Int(self.view.frame.width) - 2 * boxSize
+        viewHeight = Int(self.view.frame.height) - 2 * boxSize
+        viewRect = CGRect(x: boxSize - 5, y: boxSize - 5, width: viewWidth + 10, height: viewHeight + 10)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func updateNameAndSmileysLabel()
-    {
-        labelNamaAndNumber.text = fullString + String(counter)
     }
     
     func handleTap(sender: UITapGestureRecognizer) {
@@ -51,16 +56,21 @@ class FourthViewController: UIViewController {
         
         let location = sender.location(in: view)
         
-        let face = FaceView(frame: CGRect(x: location.x - 50, y: location.y - 50, width: 100, height: 100))
+        if viewRect.contains(location)
+        {
+            let face = FaceView(frame: CGRect(x: location.x - CGFloat(boxSize), y: location.y - CGFloat(boxSize), width: CGFloat(2 * boxSize), height: CGFloat(2 * boxSize)))
         
-        let facialExpression = FacialExpression.randomFacialExpression()
+            let facialExpression = FacialExpression.randomFacialExpression()
         
-        createSmileyFace(face: face, facialExpression: facialExpression)
+            createSmileyFace(face: face, facialExpression: facialExpression)
  
-        view.addSubview(face)
+            view.addSubview(face)
         
-        counter += 1
-        updateNameAndSmileysLabel()
+            counter += 1
+        }
+        else{
+            print("Too close to the borders!")
+        }
     }
     
     func getRandomColor() -> UIColor{

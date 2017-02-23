@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstAssignment/SecondViewController.swift"
@@ -35,14 +35,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstAssignment.SecondViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FirstAssignment.SecondViewController"
                   moduleName = "FirstAssignment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iOS/FirstAssignment/FirstAssignment/SecondViewController.swift"
-                  timestampString = "508539072.778182"
+                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iosTrening/FirstAssignment/FirstAssignment/SecondViewController.swift"
+                  timestampString = "509443399.842404"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -50,14 +50,14 @@
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstAssignment.SecondViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FirstAssignment.SecondViewController"
                   moduleName = "FirstAssignment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iOS/FirstAssignment/FirstAssignment/SecondViewController.swift"
-                  timestampString = "508539072.780141"
+                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iosTrening/FirstAssignment/FirstAssignment/SecondViewController.swift"
+                  timestampString = "509443399.843781"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -65,14 +65,14 @@
                   offsetFromSymbolStart = "23">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstAssignment.SecondViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FirstAssignment.SecondViewController&gt;"
                   moduleName = "FirstAssignment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iOS/FirstAssignment/FirstAssignment/SecondViewController.swift"
-                  timestampString = "508539072.781962"
+                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iosTrening/FirstAssignment/FirstAssignment/SecondViewController.swift"
+                  timestampString = "509443399.844953"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -80,14 +80,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstAssignment.SecondViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FirstAssignment.SecondViewController&gt;"
                   moduleName = "FirstAssignment"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iOS/FirstAssignment/FirstAssignment/SecondViewController.swift"
-                  timestampString = "508539072.783826"
+                  urlString = "file:///Users/nebojsa.mihajlovic/Projects/iosTrening/FirstAssignment/FirstAssignment/SecondViewController.swift"
+                  timestampString = "509443399.846067"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -100,15 +100,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstAssignment/FaceViewController.swift"
-            timestampString = "508530693.221727"
+            timestampString = "509443398.515528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -120,7 +120,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstAssignment/SecondViewController.swift"
-            timestampString = "508533893.439791"
+            timestampString = "509443494.347334"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstAssignment/FaceViewController.swift"
-            timestampString = "508530693.221727"
+            timestampString = "509443398.515528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Locations>
@@ -312,11 +312,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstAssignment/FifthViewController.swift"
-            timestampString = "508528949.865325"
+            timestampString = "509529361.926493"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "handleTapDeleteBox(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -327,24 +327,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FirstAssignment/FifthViewController.swift"
-            timestampString = "508533594.985514"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "updateNameAndBoxesLabel()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "FirstAssignment/SecondViewController.swift"
-            timestampString = "508533893.439791"
+            timestampString = "509443494.347334"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -360,11 +344,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstAssignment/FifthViewController.swift"
-            timestampString = "508534492.400927"
+            timestampString = "509529361.926493"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>

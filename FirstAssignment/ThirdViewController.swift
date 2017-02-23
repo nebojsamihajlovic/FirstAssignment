@@ -22,12 +22,7 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
   
-        buttonSmileyFace.layer.cornerRadius = 5
-        buttonSmileyFace.layer.borderWidth = 1
         buttonSmileyFace.layer.borderColor = UIColor.black.cgColor
-
-        buttonBoxing.layer.cornerRadius = 5
-        buttonBoxing.layer.borderWidth = 1
         buttonBoxing.layer.borderColor = UIColor.black.cgColor
 
         blueBackView.layer.borderWidth = 4
