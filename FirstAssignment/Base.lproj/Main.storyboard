@@ -99,6 +99,7 @@
                     <connections>
                         <outlet property="buttonLogin" destination="kk0-Cg-tVl" id="tYa-Nv-b3U"/>
                         <outlet property="imageView" destination="ugW-rf-j3N" id="lyo-Xn-dPA"/>
+                        <outlet property="textFieldEMail" destination="ZZj-Tb-OpQ" id="Aae-Gf-ltN"/>
                         <outlet property="textFieldFirstName" destination="cQp-eA-UXC" id="XbV-V9-uR9"/>
                         <outlet property="textFieldLastName" destination="X44-Ur-gW1" id="4Qr-NV-tLa"/>
                         <segue destination="GuN-yS-sgw" kind="show" identifier="S1toS2Segue" id="mA9-sv-pud"/>

@@ -8,14 +8,16 @@
 
 import UIKit
 
-class FaceViewController: UIViewController {
+class FaceViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var textFieldFirstName: UITextField!
     @IBOutlet weak var textFieldLastName: UITextField!
+    @IBOutlet weak var textFieldEMail: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buttonLogin: UIButton!
     
     @IBAction func onButtonClick(_ sender: UIButton) {
+        
         performSegue(withIdentifier: ViewControllerSegues.S1toS3Segue.rawValue, sender: nil)
         print("Click on Login button")
     }
@@ -27,11 +29,21 @@ class FaceViewController: UIViewController {
         let swipe = UISwipeGestureRecognizer(target: self, action: #selector(self.handleSwipe(sender:)))
         imageView.isUserInteractionEnabled = true
         imageView.addGestureRecognizer(swipe)
+
+        // setup text fields
+        self.textFieldFirstName.delegate = self
+        self.textFieldLastName.delegate = self
+        self.textFieldEMail.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     func handleSwipe(sender: UISwipeGestureRecognizer) {
